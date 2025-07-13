@@ -27,15 +27,6 @@ This project is intended as a learning tool and can be used as a sample project 
  dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
  each course, track course performance, and view their income generated from course sales.
 
-  
-***
-## Screenshots
-![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
-<details>
-  <summary>More screenshots</summary>  
-![Screenshot 2023-07-25 211451](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/63f7163d-a74a-4e78-bc78-6b96b06073f9)
-</details>
-
 ***
 
 ## Important
@@ -44,33 +35,3 @@ This project is intended as a learning tool and can be used as a sample project 
 * To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
 
 
-## Installation
-
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/himanshu8443/Study-Notion-master.git
-    ```
-
-2. Install the required packages.
-    ```sh
-    cd Study-Notion-master
-    npm install
-    
-    cd server
-    npm install
-    ```
-
-3. Set up the environment variables:
-
-   Create a .env file in the root directory and /server
-   Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations check .env.example files for more info.
-
-
-4. Start the development server.
-    ```sh
-    npm run dev
-    ```
-
-5. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
