@@ -1,37 +1,45 @@
-# Study Notion
+# 📚 VidyaManthan — An Ed-Tech Platform
 
-Study Notion is an ED Tech (Education Technology) web application developed using the MERN stack.
+**VidyaManthan** is a full-featured Ed-Tech platform built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It provides a seamless experience for students to consume educational content and for instructors to create, manage, and monetize their courses.
 
-## Note
+---
 
-This project is intended as a learning tool and can be used as a sample project for educational or personal projects.
+## 🚀 TECH STACK
 
+- **Frontend:** ReactJS, Tailwind CSS, Redux, Axios  
+- **Backend:** Node.js, Express.js, Mongoose, JWT, Bcrypt  
+- **Database:** MongoDB Atlas  
+- **Media Storage:** Cloudinary  
+- **Payments:** Razorpay  
+- **Deployment:** Vercel (Frontend), Render (Backend)
 
-***
-## Features
+---
 
-* User Authentication: Study Notion provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their 
-  profiles with ease.
-  
-* Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
-* Progress Tracking: Study Notion allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and 
-  assignments, and overall course progress.
-  
-* Payment Integration: Study Notion integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services 
-  using various payment methods supported by Razorpay.
-  
-* Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant 
-  content quickly.
-  
-* Instructor Dashboard: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The 
- dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
- each course, track course performance, and view their income generated from course sales.
+## 🎯 FEATURES
 
-***
+### 👨‍🎓 For Students:
+- Sign up / Login with OTP verification
+- Browse and purchase courses
+- Wishlist & cart functionality
+- Access video lectures & course material
+- Rate and review courses
+- Manage profile
 
-## Important
-* Backend is  in the server folder.
-* Before uploading courses and anything create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
-* To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+### 👨‍🏫 FOR INSTRUCTORS:
+- Create, update, and delete courses
+- Upload course content
+- View analytics (views, feedback)
+- Manage profile
 
+### 🛠️ FOR ADMINS (Future Scope):
+- Platform-wide insights (users, revenue, courses)
+- Manage instructors and courses
+- User and content moderation tools
 
+---
+
+## 🧩 System Architecture
+
+- **Client-server model**: ReactJS frontend communicates via REST APIs with a Node/Express backend
+- **Media & content**: Stored in Cloudinary
+- **Database**: MongoDB handles user, course, and payment data
