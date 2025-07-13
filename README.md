@@ -1,4 +1,4 @@
-# 📚 VidyaManthan — An Ed-Tech Platform
+# 📚 VidyaMantha — An Ed-Tech Platform (Studynotion)
 
 **VidyaManthan** is a full-featured Ed-Tech platform built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It provides a seamless experience for students to consume educational content and for instructors to create, manage, and monetize their courses.
 
