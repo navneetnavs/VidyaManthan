@@ -41,7 +41,6 @@ const mailSender = async (email, title, body) => {
             })
             console.log(info);
             return info;
->>>>>>> 6dedbab9212d570d538d2c158f15220dafe9728f
     }
     catch (error) {
         console.log(error.message);
